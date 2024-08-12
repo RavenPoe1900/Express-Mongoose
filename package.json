@@ -1,0 +1,46 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec 'clear && node ./src/app.js'",
+    "inspect": "nodemon --inspect",
+    "test": "jest --coverage",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/integration",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^1.7.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "chalk": "4.1.2",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "meteor-promise": "^0.9.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^4.2.0",
+    "sharp": "^0.30.7",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
